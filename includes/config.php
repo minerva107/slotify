@@ -4,7 +4,7 @@
 
 	$timezone = date_default_timezone_set("Europe/London");
 
-	$con = mysqli_connect("den1.mysql4.gear.host", "slotifysite", "benfiQuista12345!", "slotify");
+	$con = mysqli_connect("den1.mysql3.gear.host", "slotify2", "benfiQuista12345!", "slotify2");
 
 	if(mysqli_connect_errno()) {
 		echo "Failed to connect: " . mysqli_connect_errno();
